@@ -41,7 +41,7 @@ export class Item extends Component {
         }
     }
     handleEdit() {
-        this.setState({ editing: true });
+        this.setState({ editing: !this.state.editing });
     }
     handleSubmit() {
         this.setState({ editing: false });
