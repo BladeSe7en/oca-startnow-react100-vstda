@@ -73,4 +73,3 @@ export class AddForm extends Component {
     );
   }
 }
-

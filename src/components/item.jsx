@@ -9,7 +9,7 @@ export class Item extends Component {
             index: this.props.index,
             desc: this.props.desc,
             priority: this.props.priority,
-            editing: false,
+            editing: false,c
             completed: false
         };
     }
